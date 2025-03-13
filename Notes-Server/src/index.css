@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    min-height: 100vh;
+    background-color: #9b6868;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: black;
+    padding: 14px;
+    border-radius: 10px;
+    color: #fff;
+}

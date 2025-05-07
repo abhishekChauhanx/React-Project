@@ -1,0 +1,14 @@
+.title{
+    text-align: center;
+    color: #212ea0;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-size: bolder;
+    margin: 70px auto;
+}
+.title h2{
+    font-size: 32px;
+    color: black;
+    margin-top: 5px;
+    text-transform: none;
+}

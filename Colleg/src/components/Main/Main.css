@@ -1,0 +1,61 @@
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url("https://as2.ftcdn.net/v2/jpg/04/98/14/49/1000_F_498144940_DkzvRAkgBv1ILU6DiDeMZr6vUufPOra4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main .main-text {
+    text-align: center;
+    max-width: 800px;
+}
+
+.main .main-text h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.main-text p {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+.main-btn span {
+    font-size: 20px;
+    color: blue;
+    font-weight: bolder;
+}
+
+/* Responsive */
+@media (max-width: 850px) {
+    .main-text h1 {
+        font-size: 40px;
+
+    }
+
+}
+
+@media (max-width: 650px) {
+    .main .main-text h1 {
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+
+
+
+    }
+
+    .main .main-text p {
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+
+}

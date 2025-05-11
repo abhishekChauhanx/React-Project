@@ -1,0 +1,29 @@
+.addUser {
+    width: max-content;
+    height: max-content;
+    padding: 30px;
+    background-color: black;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+form {
+    display: flex;
+    gap: 20px;
+
+    & button {
+        background-color: rgba(135, 134, 134, 0.764);
+        color: rgb(255, 255, 255);
+        border: none;
+        outline: none;
+        padding: 15px 20px;
+        border-radius: 12px;
+
+    }
+}
